@@ -1,0 +1,15 @@
+.order__page .img-wrap{
+    width: 150px;
+    height: 150px;
+}
+
+.order__page .img-wrap img{
+    width: 100%;
+}
+
+.order__page .game__list{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:2rem;
+    font-size: 2rem;
+}

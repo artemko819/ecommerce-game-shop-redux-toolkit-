@@ -1,0 +1,46 @@
+.home-page{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.game__item{
+    background: #333;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.game__image{
+    width: 100%;
+    height: 200px;
+    background-size: cover !important;
+}
+
+.game__item-details{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+.game__item-genre{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.game__item-title{
+    margin-bottom: 2rem;
+    display: block;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.game__item-genre span{
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    background: #555;
+}
+
+.game__buy-price{
+    margin-right: 20px;
+}

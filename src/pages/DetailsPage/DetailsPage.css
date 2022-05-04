@@ -1,0 +1,24 @@
+.game__page-content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+h1{
+    margin-bottom: 2rem;
+}
+.game__page-left{
+    width: 70%;
+}
+
+
+.game__page-right{
+    width: 30%;
+}
+
+.game__page-right img{
+    width: 100%;
+}
+
+.secondary__text{
+    margin-bottom: 2rem;
+}
